@@ -1065,6 +1065,10 @@ body{
 }
 
 @media (min-width: 640px) {
+  .sm\:max-w-screen-sm {
+    max-width: 640px;
+  }
+
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
