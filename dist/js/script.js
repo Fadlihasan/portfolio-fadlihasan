@@ -18,3 +18,19 @@ hamburger.addEventListener('click', function() {
   hamburger.classList.toggle('hamburger-active');
   navMenu.classList.toggle('hidden');
 });
+const text = document.querySelector(".animasi-text");
+
+const textLoad = () => {
+    setTimeout(() => {
+        text.textContent = "Syamlithani";
+    }, 0);
+    setTimeout(() => {
+        text.textContent = "Welcome";
+    }, 4000);
+    setTimeout(() => {
+        text.textContent = "Enjoy✌️";
+    }, 8000);
+}
+
+textLoad();
+setInterval(textLoad, 12000);

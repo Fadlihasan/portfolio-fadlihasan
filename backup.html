@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +7,6 @@
     <title>Fadlihasan Web</title>
     <link href="dist/output.css" rel="stylesheet" />
 </head>
-<style>
-  .scroll-smooth {
-    scroll-behavior: smooth;
-  }
-  .text{
-      position: relative;
-  }
-  .text.animasi-text:before{
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background-color: #fff;
-      border-left: 3px solid #000;
-      animation: animate 4s steps(12) infinite;
-  }
-  @keyframes animate{
-      40%, 60%{
-          left: calc(100% + 4px);
-      }
-      100%{
-          left: 0%;
-      }
-  }
-  </style>
 <body>
     <!--Header Start-->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
@@ -55,16 +28,13 @@
                         <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
                     </li>
                     <li class="group">
-                        <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">About Me</a>
+                        <a href="#about" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
                     </li>
                     <li class="group">
                         <a href="#portfolio" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Portfolio</a>
                     </li>
                     <li class="group">
                         <a href="#Informasi" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Informasi</a>
-                    </li>
-                    <li class="group">
-                        <a href="#song" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Music</a>
                     </li>
                     <li class="group">
                         <a href="#galery" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Galery</a>
@@ -85,14 +55,10 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
-                 <h1 class="text-base font-semibold first-letter text-primary md:text-xl">Hallo Semua🙌, Selamat Datang <span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl font-mono">Fadlihasan </span>
-                <div class="block">
-                 <span class="font-bold text-dark text-4xl mt-1 lg:text-5xl  md:text-xl animasi-text text font-mono">Syamlithani</span>
-                </div>
-                </h1>
+                 <h1 class="text-base font-semibold first-letter text-primary md:text-xl">Hallo Semua🙌, Selamat Datang<span class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Fadlihasan Syamlithani</span></h1>
                  <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Gaming & 
                     <span class="text-dark animate-pulse ">Programing</span></h2>
-                 <p class="font-medium text-secondary mb-5 leading-relaxed">
+                 <p class="font-medium text-secondary mb-10 leading-relaxed">
                     Hii 🙌 Selamat datang di FHS WEB, Web ini dibuat oleh saya sendiri. Tujuan saya membuat web ini agar semua orang lebih mengenal Saya.<span class="text-dark font-bold">#It's Me Sann</span><p>
 
                 <a href="https://www.instagram.com/hsannn_01/" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Chat Me Via DM</a>
@@ -119,7 +85,7 @@
         <div class="container">
         <div class="flex flex-wrap">
             <div class="w-full px-4 mb-10 lg:w-1/2">
-                <h4 class="font-bold uppercase text-primary text-lg mb-3">About Me</h4>
+                <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
                 <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Fadlihasan Syamlithani</h2>
                 <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Hii, Saya Fadlihasan Syamlithani dari kelas XI RPL, Saat ini saya adalah siswa SMKN 4 Padalarang di jurusan RPL (Rekayasa Perangkat Lunak). Mengapa memilih jurusan RPL? Karena waktu itu saya tertarik dengan pemograman seperti membuat web ini contohnya.</p>
             </div>
@@ -164,7 +130,7 @@
      <div class="container">
         <div class="w-full px-4">
             <div class="max-w-xl mx-auto text-center mb-16">
-                <h4 class="font-semibold text-lg uppercase text-primary mb-2">Portfolio</h4>
+                <h4 class="font-semibold text-lg text-primary mb-2">Portfolio</h4>
                 <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg-text-5xl">Project yang pernah dibuat sebelumnya</h2>
                 <p class="font-medium text-md  text-secondary md:text-lg">Berikut ini merupakan beberapa web yang pernah saya buat sebelumnya</p>
             </div>
@@ -211,8 +177,8 @@
      <section id="Informasi" class="pt-36 pb-32 bg-slate-700 sm:max">
         <div class="container">
            <div class="w-full px-4">
-            <div class="mx-auto max-w-xl text-center mb-16">
-                <h4 class="font-semibold text-lg uppercase text-primary mb-2">Informasi Web</h4>
+            <div class="mx-auto text-center mb-16">
+                <h4 class="font-semibold text-lg text-primary mb-2">Informasi Web</h4>
                 <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg-text-5xl">Membangun Web Ini Pakai Apa?</h2>
                 <p class="font-medium text-md  text-white md:text-lg">Saya membangun web ini menggunakan Aplikasi Vs Code dan menggunakan bahasa pemograman HTML, Tailwind, dan Java script. </p>
             </div>
@@ -237,119 +203,14 @@
         </div>
      </section>
      <!--Informasi Section End-->
-     <!--Music Section-->
-     <main id="song" class="grid place-items-center min-h-screen bg-gradient-to-t from-blue-200 to-indigo-900 p-3 pt-36 pb-32 ">
-      <div>
-        <div class="mx-auto text-center mb-16">
-        <h4 class="font-semibold text-lg uppercase text-primary mb-2">Music</h4>
-        <h1 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg-text-5xl ">Made for you</h1>
-        <p class="font-medium text-md  text-white md:text-lg">If I can't have you, let me admire you forever</p>
-        </div>
-        <section class="grid grid-cols-1 sm:grid-cols-3 gap-4 ">
-          <!-- CARD 1 -->
-          <div class="bg-gray-900 shadow-lg rounded p-3">
-            <div class="group relative">
-              <img class="w-full md:w-70 block rounded" src="https://i1.sndcdn.com/artworks-MQcPbVo4yfed-0-t500x500.jpg" alt="" />
-              <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-                  </svg>
-                </button>
-    
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                </button>
-    
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="p-5">
-              <h3 class="text-white text-lg">18</h3>
-              <p class="text-gray-400">One Direction</p>
-            </div>
-          </div>
-          <!-- END OF CARD 1 -->
-    
-          <!-- CARD 2 -->
-          <div class="bg-gray-900 shadow-lg rounded p-3">
-            <div class="group relative">
-              <img class="w-full md:w-70 block rounded" src="https://i.scdn.co/image/ab67616d0000b273fdcd66dc526a25e1555ae81d" alt="" />
-              <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-                  </svg>
-                </button>
-    
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                </button>
-    
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="p-5">
-              <h3 class="text-white text-lg">Rewrite The Stars</h3>
-              <p class="text-gray-400">Anne-Marie & James Arthur</p>
-            </div>
-          </div>
-          <!-- END OF CARD 2 -->
-    
-          <!-- CARD 3 -->
-          <div class="bg-gray-900 shadow-lg rounded p-3">
-            <div class="group relative">
-              <img class="w-full md:w-70 block rounded" src="https://i.scdn.co/image/ab67616d0000b273e051e310ef6cec8f5e37d7ae" alt="" />
-              <div class="absolute bg-black rounded bg-opacity-0 group-hover:bg-opacity-60 w-full h-full top-0 flex items-center group-hover:opacity-100 transition justify-evenly">
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
-                    <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-                  </svg>
-                </button>
-    
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-                  </svg>
-                </button>
-    
-                <button class="hover:scale-110 text-white opacity-0 transform translate-y-3 group-hover:translate-y-0 group-hover:opacity-100 transition">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="p-5">
-              <h3 class="text-white text-lg">Perfect</h3>
-              <p class="text-gray-400">Ed Sheeran</p>
-            </div>
-          </div>
-          <!-- END OF CARD 3 -->
-        </section>
-      </div>
-    </main>
-     <!--Music section End-->
 
      <!--Galery Section Start-->
      <section id="galery" class="pt-36 pb-32 bg-slate-100 sm:max">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg uppercase text-primary mb-2">Galery</h4>
-                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg-text-5xl font-mono">My Galery</h2>
+                    <h4 class="font-semibold text-lg text-primary mb-2">Galery</h4>
+                    <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg-text-5xl">My Galery</h2>
                     <p class="font-medium text-md  text-secondary md:text-lg"></p>
                 </div>
             </div>
@@ -357,34 +218,19 @@
             <div class="flex flex-wrap">
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="dist/img/galery/RPL.jpeg" alt="Kenaikan Kelas" class="w-full"/>
+                        <img src="dist/img/galery/Galery9.png" alt="Kenaikan Kelas" class="w-full"/>
                     </div>
                 </div>
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="dist/img/galery/trio.jpeg" alt="RPL" class="w-full"/>
+                        <img src="dist/img/galery/Galery11.png" alt="RPL" class="w-full"/>
                     </div>
                 </div>
                 <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
                     <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="dist/img/galery/RPL2.jpeg" alt="X RPL" class="w-full"/>
+                        <img src="dist/img/galery/Galery10.png" alt="X RPL" class="w-full"/>
                     </div>
                 </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="dist/img/galery/hasanyuta.jpeg" alt="X RPL" class="w-full"/>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                  <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                      <img src="dist/img/galery/RPL3.jpeg" alt="X RPL" class="w-full"/>
-                  </div>
-              </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                  <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                      <img src="dist/img/galery/hasanyuta2.jpeg" alt="X RPL" class="w-full"/>
-                  </div>
-              </div>
             </div>
         </div>
      </section>
@@ -395,11 +241,11 @@
         <div class="container">
             <div class="flex flex-warp">
                 <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
-                    <h2 class="font-bold text-4xl text-white mb-6">FHS WEB</h2>
-                    <h3 class="font-bold text-2xl mb-2">Website</h3>
-                    <p>Saran</p>
-                    <p>hasanfxagaming@gmail.com</p>
-                    <p>ig : @hsannn_01</p>
+                    <h2 class="font-bold text-4xl text-white mb-6">WPU</h2>
+                    <h3 class="font-bold text-2xl mb-2">Hubungi Saya</h3>
+                    <p>fadlisyamlithani@gmail.com</p>
+                    <p>Desa Kertamulya, Kecamatan Padalarang,</p>
+                    <p>Bandung Barat.</p>
                 </div>
                 <div class="w-full px-4 mb-12 md:w-1/2 ">
                     <h3 class="font-semibold text-xl text-white mb-5">Tag</h3>
