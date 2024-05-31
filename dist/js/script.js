@@ -22,7 +22,7 @@ const text = document.querySelector(".animasi-text");
 
 const textLoad = () => {
     setTimeout(() => {
-        text.textContent = "Syamlithani";
+        text.textContent = "Website";
     }, 0);
     setTimeout(() => {
         text.textContent = "Welcome";
